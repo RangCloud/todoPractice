@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
+
+.allBox{
+    display: flex;
+    justify-content: center;
+    border: 1px solid gray;
+    border-radius: 15px;
+    margin-top: 20px;
+    background-color: aliceblue;
+    align-items: center;
+}
+
+.mainLayout{
+    display: flex;
+    justify-content: space-between;
+    width: 430px;
+    height: 70px;
+    font-size: 30px;
+    font-family: 'Gamja Flower', sans-serif;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.btn{
+    font-family: 'Gamja Flower', sans-serif;
+    border-radius: 15px;
+    width: 60px;
+    font-size: 20px;
+    background-color: rgb(243, 247, 126);
+    border: 1px solid gray;
+}
