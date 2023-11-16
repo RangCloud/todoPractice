@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/ItemStyle.css';
 
-const TodoItem = ({ todo, onDelete }) => {
+const TodoItem = ({todo, onDelete}) => {
     return (
     <div className='allBox'>
         <div className='mainLayout'>

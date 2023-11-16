@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../styles/FormStyle.css'
 
-const TodoForm = ({ onAdd }) => {
+const TodoForm = ({onAdd}) => {
     const [newTodo, setNewTodo] = useState(''); // 새로운 목록 추가할 때 빈 상태
 
     const onSubmit = (e) => { // event 일어날때
